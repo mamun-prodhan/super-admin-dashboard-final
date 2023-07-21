@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import DropDown from "../DropDown/DropDown";
 
 const ContractorCart = () => {
-    return (
-        <div>
-            this is coosdnfoisdof jsdfjdjfoij
-        </div>
-    );
+  return (
+    <div>
+        <DropDown></DropDown>
+    </div>
+  );
 };
 
 export default ContractorCart;

@@ -177,7 +177,7 @@ const MoneyDashBord = () => {
               margin={{ top: 5, right: 0, bottom: 5, left: 0 }}
             >
               <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-              <CartesianGrid stroke="#ccc" />
+              <CartesianGrid stroke="#ccc" vertical={false} />
               <XAxis dataKey="name" />
               <YAxis
                 dataKey="uv"
